@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('revervations', function (Blueprint $table) {
             $table->id();
+            $table->string("nom");
+            $table->string("email");
+            $table->string("quantite");
+            $table->string("prix");
+            $table->string("etat");
             $table->timestamps();
         });
     }

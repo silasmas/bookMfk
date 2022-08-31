@@ -1,116 +1,14 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Treaser - Book landing template">
-  <meta name="keywords" content="Treaser,creative,author,book,ebook,marketing,digital, agency, startup,onepage, clean, modern,business, company">
-
-  <meta name="author" content="Dreambuzz.com">
-
-  <title>Treaser-Book Landing Template</title>
-
- <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-  <!-- Animate Css -->
-  <link rel="stylesheet" href="plugins/animate-css/animate.css">
-  <!--  icon Css -->
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
-  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
-  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
-
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-
-</head>
+@extends('templates.modele')
 
 
-<body id="top-header">
-<!-- Navigation Menu -->
-
-    <!-- NAVBAR
-    ================================================= -->
-    <div class="main-navigation fixed-top site-header" id="mainmenu-area">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container align-items-center">
-                <a class="navbar-brand smoth-scroll" href="#">
-                    <h2 class="mb-0"><span class="text-color">Trea</span>ser</h2>
-                </a>
-                <!-- Toggler -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="ti-menu-alt"></span>
-                </button>
-
-                <!-- Collapse -->
-                <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
-                    <!-- Links -->
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#book" class="nav-link smoth-scroll">
-                               Home
-                            </a>
-                            <ul class="submenu">
-                                <li><a href="index.html" class="nav-link smoth-scroll"> Home 1</a></li>
-                                <li><a href="index-2.html" class="nav-link smoth-scroll"> Home 2 </a></li>
-                                <li><a href="index-3.html" class="nav-link smoth-scroll"> Home 3 </a></li>
-                                <li><a href="index-classic.html" class="nav-link smoth-scroll"> Home Classic </a></li>
-                                <li><a href="index-modern.html" class="nav-link smoth-scroll"> Home Modern </a></li>
-                                <li><a href="index-dark.html" class="nav-link smoth-scroll"> Home Dark </a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="#book" class="nav-link smoth-scroll">
-                                About
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="#chapter" class="nav-link smoth-scroll">
-                                Chapters
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="#review" class="nav-link smoth-scroll">
-                                Reviews
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="#author" class="nav-link smoth-scroll">
-                                Author
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="#contact" class="nav-link smoth-scroll">
-                                Contact
-                            </a>
-                        </li>
-
-                    </ul>
-
-                    <a href="#" class="btn btn-border-tp btn-small ml-3">Purchase Now</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-
+@section('content')
 <!-- Banner -->
 <section class="banner-2 bg-grey py-7" id="banner-2">
     <div class="container">
         <div class="row align-items-center">
              <div class="col-lg-6">
                 <div class="banner-img">
-                    <img src="images/about/book-2.png" alt="" class="img-fluid w-100">
+                    <img src="{{ asset('assets/images/b1.png') }}" alt="" class="img-fluid w-100">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -124,7 +22,7 @@
 
                     <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p>
 
-                    <a href="#" target="_blank" class="btn btn-main-2 mt-2">
+                    <a href="#achat" class="btn btn-main-2 mt-2">
                         Buy now for <i class="ti-check mr-2 ml-2"></i> $14.99
                     </a>
                     <p class="mt-4">* eBook includes iBooks, PDF & ePub versions</p>
@@ -192,26 +90,26 @@
 
 			<div class="col-lg-5">
 				<div class="book-preview">
-					<img src="images/about/kindle.png" class="background-device img-fluid" alt="">
+					<img src="{{ asset('assets/images/about/kindle.png') }}" class="background-device img-fluid" alt="">
 					<div class="owl-book owl-carousel owl-theme" style="opacity: 1; display: block;">
 						<div class="book-item">
-							<img src="images/about/book_page.png" alt="" class="img-fluid">
+							<img src="{{ asset('assets/images/about/book_page.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
-								<a href="images/about/book_page.png" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+								<a href="{{ asset('assets/images/about/book_page.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
 							</div>
 						</div>
 
 						<div class="book-item">
-							<img src="images/about/book_page2.png" alt="" class="img-fluid">
+							<img src="{{ asset('assets/images/about/book_page2.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
-								<a href="images/about/book_page2.png" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+								<a href="{{ asset('assets/images/about/book_page2.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
 							</div>
 						</div>
 
 						<div class="book-item">
-							<img src="images/about/book_page.png" alt="" class="img-fluid">
+							<img src="{{ asset('assets/images/about/book_page.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
-								<a href="images/about/book_page.png" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+								<a href="{{ asset('assets/images/about/book_page.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
 							</div>
 						</div>
 					</div>
@@ -376,7 +274,7 @@
             <div class="test-item">
                <div class="testimonial-item-content">
                    <div class="test-author-thumb mb-4">
-                       <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
+                       <img src="assets/images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
 
                         <div class="test-author-info mt-4">
                            <h4 class="mb-0 mt-2">Barrow Hasi</h4>
@@ -398,7 +296,7 @@
             <div class="test-item">
               <div class="testimonial-item-content">
                    <div class="test-author-thumb mb-4">
-                       <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
+                       <img src="assets/images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
 
                        <div class="test-author-info mt-4">
                            <h4 class="mb-0 mt-2">Will Barrow</h4>
@@ -419,7 +317,7 @@
              <div class="test-item ">
                 <div class="testimonial-item-content">
                    <div class="test-author-thumb mb-4">
-                       <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
+                       <img src="assets/images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
 
                        <div class="test-author-info mt-4">
                            <h4 class="mb-0 mt-2">Michale john</h4>
@@ -440,7 +338,7 @@
              <div class="test-item">
                 <div class="testimonial-item-content">
                    <div class="test-author-thumb mb-4">
-                       <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
+                       <img src="assets/images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
 
                        <div class="test-author-info mt-4">
                            <h4 class="mb-0 mt-2">John doe</h4>
@@ -553,15 +451,15 @@
 	</div>
 </section>
 <!-- Call to action -->
-<section class="section cta-home">
+<section class="section cta-home" id="achat">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-6">
-				 <h2 class="text-lg">Start building a landing page that converts to leads.</h2>
+				 <h2 class="text-lg">Procedez au paiement sécuriser et obtenez votre livre. </h2>
 			</div>
 
 			<div class="col-lg-6">
-				<form action="#">
+				{{-- <form action="#">
 			 		<div class="form-group">
 			 			<input type="text" class="form-control" placeholder="Full Name">
 			 		</div>
@@ -570,9 +468,39 @@
 			 		</div>
 
 			 		<a href="#" class="btn btn-main-2">Get free trial</a>
-			 	</form>
+			 	</form> --}}
 
-			 	<p class="mt-3 mb-0">* Download link will be emailed to you.</p>
+                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+
+                        <div class="form-group">
+                          <input type="hidden" name="on0" value="Quantity">
+                          Quantity
+                            <select name="os0" class="form-control" required>
+                            <option value="1">1 </option>
+                            <option value="2">2 </option>
+                            <option value="5">5 </option>
+                            <option value="10">10 </option>
+                        </select>
+                        </div>
+                        <div class="form-group">
+                <input type="hidden" class="form-control" name="on1" value="Votre nom">Votre nom
+                <input type="text" class="form-control" name="os1" maxlength="200" required>
+            </div>
+                <div class="form-group">
+                <input type="hidden" class="form-control" name="on2" value="Votre Email">Votre Email
+                <input type="text" class="form-control" name="os2" maxlength="200" required>
+            </div>
+                <br>
+                    <input type="hidden" name="encrypted" value="{{ env('PAYPAL') }}">
+
+                    <input type="image" class=""
+                    src="https://www.paypalobjects.com/fr_XC/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="">
+
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="10" height="10">
+                    </form>
+
+			 	<p class="mt-3 mb-0">* Vous recevrez une notification par mail.</p>
 			</div>
 		</div>
 	</div>
@@ -584,7 +512,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="about-img">
-                    <img src="images/about/authorimg.jpg" alt="" class="img-fluid w-100">
+                    <img src="{{ asset('assets/images/about/auteur.jpg') }}" alt="" class="img-fluid w-100">
                 </div>
             </div>
 
@@ -594,7 +522,7 @@
                     <h2 class="text-lg">Yasin Arafat <span class="text-sm">- Technical Writer</span></h2>
 
                     <p class="mb-4 mt-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. et inventore dicta quos ducimus, consectetur culpa dolore quisquam ipsum facere, fugiat. Corporis eaque, sint.</p>
-                    <img src="images/about/2.png" alt="" class="img-fluid">
+                    <img src="assets/images/about/2.png" alt="" class="img-fluid">
 
 
                     <div class="follow mt-5">
@@ -634,17 +562,17 @@
                              <span class="h5">Featured by companies like:</span>
                         </div>
                         <div class="col-lg-2">
-                            <img src="images/client/client-1.png" alt="" class="img-fluid">
+                            <img src="assets/images/client/client-1.png" alt="" class="img-fluid">
                         </div>
 
                         <div class="col-lg-2">
-                            <img src="images/client/client-2.png" alt="" class="img-fluid">
+                            <img src="assets/images/client/client-2.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-2">
-                            <img src="images/client/client-3.png" alt="" class="img-fluid">
+                            <img src="assets/images/client/client-3.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-2">
-                            <img src="images/client/client-4.png" alt="" class="img-fluid">
+                            <img src="assets/images/client/client-4.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -725,37 +653,4 @@
     </div>
 </section>
 
-
-
-
-
-
-
-<!--  Page Scroll to Top  -->
-
-<a class="scroll-to-top smoth-scroll" href="#top-header">
-    <i class="ti-angle-up"></i>
-</a>
-
-
-
-<!--
-Essential Scripts
-=====================================-->
-<!-- Main jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4.3.1 -->
-<script src="plugins/bootstrap/js/popper.min.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="plugins/magnific-popup/jquery.magnific-popup.js"></script>
-<script src="plugins/slick-carousel/slick/slick.min.js"></script>
-<!-- Counter Js -->
-<script src="plugins/counterup/waypoint.js"></script>
-<script src="plugins/counterup/jquery.counterup.min.js"></script>
-
-<script src="js/contact.js"></script>
-<script src="js/theme.js"></script>
-
-</body>
-</html>
+@endsection
