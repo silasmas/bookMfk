@@ -179,7 +179,10 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-6">
-				 <h2 class="text-lg">Procedez au paiement sécuriser et obtenez votre livre. </h2>
+				 {{-- <h2 class="text-lg">Procedez au paiement sécuriser et obtenez votre livre. </h2> --}}
+                 <div class="banner-img">
+                    <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
+                </div>
 			</div>
 
 			<div class="col-lg-6">
