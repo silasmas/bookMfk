@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-lg ">
             <div class="container align-items-center">
                 <a class="navbar-brand smoth-scroll" href="#">
-                    <h2 class="mb-0"><span class="text-color">Trea</span>ser</h2>
+                    <h2 class="mb-0"><span class="text-color">MFK</span>Book</h2>
                 </a>
                 <!-- Toggler -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
