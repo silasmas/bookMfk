@@ -19,7 +19,7 @@
                     {{-- <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p> --}}
 
                     <a href="#achat" class="btn btn-main-2 mt-2">
-                        Pre-ORDER YOUR COPY <i class="ti-check mr-2 ml-2"></i> $14.99
+                        Pre-ORDER YOUR COPY <i class="ti-check mr-2 ml-2"></i>
                     </a>
                     {{-- <p class="mt-4">* eBook includes iBooks, PDF & ePub versions</p> --}}
                 </div>
