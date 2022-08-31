@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-lg ">
             <div class="container align-items-center">
                 <a class="navbar-brand smoth-scroll" href="#">
-                    <img src="{{ asset('assets/images/about/ok.jpeg') }}" alt="" width="100" height="100" class="img-fluid ">
+                    <img src="{{ asset('assets/images/about/ok.jpeg') }}" alt="" width="80" height="80" class="img-fluid ">
 
                     {{-- <h2 class="mb-0"><span class="text-color">MFK</span>Book</h2> --}}
                 </a>

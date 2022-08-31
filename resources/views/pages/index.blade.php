@@ -26,7 +26,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="banner-img">
-                    <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
+                    <img src="{{ asset('assets/images/about/on.png') }}" alt="" class="img-fluid w-100">
                 </div>
             </div>
         </div>
