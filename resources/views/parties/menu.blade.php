@@ -6,7 +6,9 @@
         <nav class="navbar navbar-expand-lg ">
             <div class="container align-items-center">
                 <a class="navbar-brand smoth-scroll" href="#">
-                    <h2 class="mb-0"><span class="text-color">MFK</span>Book</h2>
+                    <img src="{{ asset('assets/images/about/ok.jpeg') }}" alt="" width="100" height="100" class="img-fluid ">
+
+                    {{-- <h2 class="mb-0"><span class="text-color">MFK</span>Book</h2> --}}
                 </a>
                 <!-- Toggler -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">

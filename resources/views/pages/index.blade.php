@@ -6,26 +6,27 @@
 <section class="banner-2 bg-grey py-7" id="banner-2">
     <div class="container">
         <div class="row align-items-center">
-             <div class="col-lg-6">
-                <div class="banner-img">
-                    <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
-                </div>
-            </div>
+
             <div class="col-lg-6 col-md-12">
                 <div class="main-banner">
-                    <p class="font-weight-bold"><span class="text-color">50% discount</span> on early purchase</p>
+                    <p class="font-weight-bold"><span class="text-color">A Torrent of Words and Worship  Presents:</p>
                     <h1 class="mb-2">
-                       The Man in the <br>Glass House
+                        A Torrent of<br> Encouraging Words
                     </h1>
+<br>
+                    {{-- <p class="lead">A great landing page to sell your eBook!</p>
 
-                    <p class="lead">A great landing page to sell your eBook!</p>
-
-                    <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p>
+                    <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p> --}}
 
                     <a href="#achat" class="btn btn-main-2 mt-2">
                         Pre-ORDER YOUR COPY <i class="ti-check mr-2 ml-2"></i> $14.99
                     </a>
-                    <p class="mt-4">* eBook includes iBooks, PDF & ePub versions</p>
+                    {{-- <p class="mt-4">* eBook includes iBooks, PDF & ePub versions</p> --}}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="banner-img">
+                    <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
                 </div>
             </div>
         </div>
@@ -62,8 +63,14 @@
 
 			<div class="col-lg-5">
 				<div class="book-preview">
-					<img src="{{ asset('assets/images/about/kindle.png') }}" class="background-device img-fluid" alt="">
+					{{-- <img src="{{ asset('assets/images/about/kindle.png') }}" class="background-device img-fluid" alt=""> --}}
 					<div class="owl-book owl-carousel owl-theme" style="opacity: 1; display: block;">
+						<div class="book-item">
+							<img src="{{ asset('assets/images/about/t.png') }}" alt="" class="img-fluid">
+							<div class="overlay">
+								<a href="{{ asset('assets/images/about/t.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+							</div>
+						</div>
 						<div class="book-item">
 							<img src="{{ asset('assets/images/about/o.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
@@ -231,6 +238,7 @@
             <div class="col-lg-5">
                 <div class="about-img">
                     <img src="{{ asset('assets/images/about/ph.jpg') }}" alt="" class="img-fluid w-100">
+
                 </div>
             </div>
 
