@@ -13,7 +13,7 @@
   <title>{{ config('app.name') }}</title>
 
  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}" />
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}">
   <!-- Animate Css -->
