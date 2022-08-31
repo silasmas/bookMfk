@@ -14,9 +14,9 @@
                         A Torrent of<br> Encouraging Words
                     </h1>
 <br>
-                    {{-- <p class="lead">A great landing page to sell your eBook!</p>
+                    <p class="lead">ON PRE-ORDER - Grab your copy now.</p>
 
-                    <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p> --}}
+                    {{-- <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p> --}}
 
                     <a href="#achat" class="btn btn-main-2 mt-2">
                         Pre-ORDER YOUR COPY <i class="ti-check mr-2 ml-2"></i> $14.99
