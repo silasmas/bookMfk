@@ -8,7 +8,7 @@
         <div class="row align-items-center">
              <div class="col-lg-6">
                 <div class="banner-img">
-                    <img src="{{ asset('assets/images/b1.png') }}" alt="" class="img-fluid w-100">
+                    <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
@@ -23,7 +23,7 @@
                     <p class="mb-3 mt-4">We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time.</p>
 
                     <a href="#achat" class="btn btn-main-2 mt-2">
-                        Buy now for <i class="ti-check mr-2 ml-2"></i> $14.99
+                        Pre-ORDER YOUR COPY <i class="ti-check mr-2 ml-2"></i> $14.99
                     </a>
                     <p class="mt-4">* eBook includes iBooks, PDF & ePub versions</p>
                 </div>
@@ -32,34 +32,6 @@
     </div>
 </section>
 
-
-<section class="feature section-bottom" id="features">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="feature-block mb-4 mb-lg-0">
-                    <i class="ti-microphone text-danger"></i>
-                    <h5 class="mb-3 mt-4">Experience</h5>
-                    <p class="mb-0">Must explain to you how this denouncing praisig pain was give you explain to you how…</p>
-                </div>
-            </div>
-             <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="feature-block mb-4 mb-lg-0">
-                    <i class="ti-rocket text-success"></i>
-                    <h5 class="mb-3 mt-4">Marketing Goals</h5>
-                    <p class="mb-0">Must explain to you how this denouncing praisig pain was give you explain to you how…</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                 <div class="feature-block mb-4 mb-lg-0 ">
-                    <i class="ti-email text-warning"></i>
-                    <h5 class="mb-3 mt-4">Targetting Vission</h5>
-                    <p class="mb-0">Must explain to you how this denouncing praisig pain was give you explain to you how…</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <!-- Book preview -->
@@ -93,23 +65,35 @@
 					<img src="{{ asset('assets/images/about/kindle.png') }}" class="background-device img-fluid" alt="">
 					<div class="owl-book owl-carousel owl-theme" style="opacity: 1; display: block;">
 						<div class="book-item">
-							<img src="{{ asset('assets/images/about/book_page.png') }}" alt="" class="img-fluid">
+							<img src="{{ asset('assets/images/about/o.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
-								<a href="{{ asset('assets/images/about/book_page.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+								<a href="{{ asset('assets/images/about/o.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
 							</div>
 						</div>
 
 						<div class="book-item">
-							<img src="{{ asset('assets/images/about/book_page2.png') }}" alt="" class="img-fluid">
+							<img src="{{ asset('assets/images/about/4.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
-								<a href="{{ asset('assets/images/about/book_page2.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+								<a href="{{ asset('assets/images/about/4.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
 							</div>
 						</div>
 
 						<div class="book-item">
-							<img src="{{ asset('assets/images/about/book_page.png') }}" alt="" class="img-fluid">
+							<img src="{{ asset('assets/images/about/5.png') }}" alt="" class="img-fluid">
 							<div class="overlay">
-								<a href="{{ asset('assets/images/about/book_page.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+								<a href="{{ asset('assets/images/about/5.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+							</div>
+						</div>
+						<div class="book-item">
+							<img src="{{ asset('assets/images/about/d2.png') }}" alt="" class="img-fluid">
+							<div class="overlay">
+								<a href="{{ asset('assets/images/about/d2.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
+							</div>
+						</div>
+						<div class="book-item">
+							<img src="{{ asset('assets/images/about/d3.png') }}" alt="" class="img-fluid">
+							<div class="overlay">
+								<a href="{{ asset('assets/images/about/d3.png') }}" class="popup-gallery img-fluid" data-title="Image Caption"><i class="ti-fullscreen"></i></a>
 							</div>
 						</div>
 					</div>
@@ -119,56 +103,7 @@
 	</div>
 </section>
 
-<section class="section counter border-bottom">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item d-flex align-items-center mb-5 mb-lg-0">
-					<div class="icon">
-						<i class="ti-thumb-up"></i>
-					</div>
-					<div class="content pl-4">
-						<span>Copies Sold</span>
-						<h2 class="count">23,500</h2>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item d-flex align-items-center mb-5 mb-lg-0">
-					<div class="icon">
-						<i class="ti-check"></i>
-					</div>
-					<div class="content pl-4">
-						<span>Cup Of Coffee</span>
-						<h2 class="count">53,246</h2>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item d-flex align-items-center mb-5 mb-lg-0">
-					<div class="icon">
-						<i class="ti-bookmark"></i>
-					</div>
-					<div class="content pl-4">
-						<span>Copies Released</span>
-						<h2 class="count">32,456</h2>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item d-flex align-items-center mb-5 mb-lg-0">
-					<div class="icon">
-						<i class="ti-heart"></i>
-					</div>
-					<div class="content pl-4">
-						<span>Happy Readers</span>
-						<h2 class="count">45,522</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+
 <!-- Chapter -->
 <section class="section chapter" id="chapter">
     <div class="container">
@@ -240,217 +175,6 @@
 
 
 
-<!-- Call to action -->
-<section class="cta-2">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-8">
-				<div class="cta-content text-center">
-					<span>A powerful explantion of design</span>
-					<h2 class="text-lg mb-4 mt-3">Don’t miss event of Grand Central Publishing.</h2>
-					<a href="#" target="_blank" class="btn btn-main-2 mt-2">
-                        Purchase now for <i class="ti-check mr-2 ml-2"></i> $14.99
-                  	</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Review-->
-<section class="section testimonial" id="review">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-12">
-             <div class="section-heading text-center">
-                <h2 class="mb-3 text-lg">What people are saying</h2>
-                <p>Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!</p>
-             </div>
-          </div>
-      </div>
-
-      <div class="row align-items-center">
-        <div class="col-lg-12 col-sm-12 col-md-12 testimonial-wrap">
-            <div class="test-item">
-               <div class="testimonial-item-content">
-                   <div class="test-author-thumb mb-4">
-                       <img src="assets/images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
-
-                        <div class="test-author-info mt-4">
-                           <h4 class="mb-0 mt-2">Barrow Hasi</h4>
-                           <p>Sunrise ten</p>
-                        </div>
-                   </div>
-
-                   <p class="mb-4">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
-                   <div class="rating">
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                    </div>
-               </div>
-            </div>
-
-            <div class="test-item">
-              <div class="testimonial-item-content">
-                   <div class="test-author-thumb mb-4">
-                       <img src="assets/images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
-
-                       <div class="test-author-info mt-4">
-                           <h4 class="mb-0 mt-2">Will Barrow</h4>
-                           <p>Sunrise Paradise Hotel</p>
-                        </div>
-                   </div>
-                   <p class="mb-4">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
-                    <div class="rating">
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                    </div>
-               </div>
-            </div>
-
-             <div class="test-item ">
-                <div class="testimonial-item-content">
-                   <div class="test-author-thumb mb-4">
-                       <img src="assets/images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
-
-                       <div class="test-author-info mt-4">
-                           <h4 class="mb-0 mt-2">Michale john</h4>
-                           <p>Suntech company</p>
-                        </div>
-                   </div>
-                   <p class="mb-4">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
-                   <div class="rating">
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                    </div>
-               </div>
-            </div>
-
-             <div class="test-item">
-                <div class="testimonial-item-content">
-                   <div class="test-author-thumb mb-4">
-                       <img src="assets/images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
-
-                       <div class="test-author-info mt-4">
-                           <h4 class="mb-0 mt-2">John doe</h4>
-                           <p>Paradise IT </p>
-                        </div>
-                   </div>
-                   <p class="mb-4">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
-                   <div class="rating">
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                      <a href="#"><i class="ti-star"></i></a>
-                    </div>
-               </div>
-            </div>
-          </div>
-      </div>
-    </div>
-</section>
-
-<!-- Counter -->
-
-<!-- About Author -->
-
-<section class="section faq">
-	<div class="container">
-		<div class="row justify-content-center">
-            <div class="col-md-12 col-lg-8">
-               <div class="section-heading text-center">
-                    <h2 class="mb-2 text-lg">Frequently Asked Questions</h2>
-                    <p>Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!</p>
-               </div>
-            </div>
-		</div>
-
-		<div class="row justify-content-center">
-			<div class="col-lg-10">
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-			        <div class="panel panel-default">
-			            <div class="panel-heading" role="tab" id="headingOne">
-			                <h4 class="panel-title ">
-			                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-controls="collapseOne">
-			                        <i class="more-less ti-plus"></i>
-			                        How to contact with Customer Service?
-			                    </a>
-			                </h4>
-			            </div>
-			            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-			                <div class="panel-body">
-			                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			                </div>
-			            </div>
-			        </div>
-
-			        <div class="panel panel-default">
-			            <div class="panel-heading" role="tab" id="headingTwo">
-			                <h4 class="panel-title ">
-			                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"  aria-controls="collapseTwo">
-			                        <i class="more-less ti-plus"></i>
-			                        New update fixed all bug and issues?
-			                    </a>
-			                </h4>
-			            </div>
-			            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-			                <div class="panel-body">
-			                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			                </div>
-			            </div>
-			        </div>
-
-			        <div class="panel panel-default">
-			            <div class="panel-heading" role="tab" id="headingThree">
-			                <h4 class="panel-title ">
-			                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"  aria-controls="collapseThree">
-			                        <i class="more-less ti-plus"></i>
-			                        Website reponse taking time, how to improve?
-			                    </a>
-			                </h4>
-			            </div>
-			            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-			                <div class="panel-body">
-			                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			                </div>
-			            </div>
-			        </div>
-			        <div class="panel panel-default">
-			            <div class="panel-heading" role="tab" id="headingFour">
-			                <h4 class="panel-title ">
-			                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-controls="collapseFour">
-			                        <i class="more-less ti-plus"></i>
-			                        How to purchase the book online?
-			                    </a>
-			                </h4>
-			            </div>
-			            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-			                <div class="panel-body">
-			                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			                </div>
-			            </div>
-			        </div>
-
-			    </div><!-- panel-group -->
-
-			    <div class="mt-5 text-center">
-			    	<a href="#" class="btn btn-main-2">Get it now on amazon</a>
-			    </div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Call to action -->
 <section class="section cta-home" id="achat">
 	<div class="container">
 		<div class="row justify-content-center">
@@ -459,16 +183,7 @@
 			</div>
 
 			<div class="col-lg-6">
-				{{-- <form action="#">
-			 		<div class="form-group">
-			 			<input type="text" class="form-control" placeholder="Full Name">
-			 		</div>
-			 		<div class="form-group">
-			 			<input type="text" class="form-control" placeholder="Enter Your email">
-			 		</div>
 
-			 		<a href="#" class="btn btn-main-2">Get free trial</a>
-			 	</form> --}}
 
                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
@@ -512,7 +227,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="about-img">
-                    <img src="{{ asset('assets/images/about/auteur.jpg') }}" alt="" class="img-fluid w-100">
+                    <img src="{{ asset('assets/images/about/ph.jpg') }}" alt="" class="img-fluid w-100">
                 </div>
             </div>
 
@@ -544,36 +259,6 @@
                                 <a href="#"><i class="ti-github"></i></a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="featured-client section-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="text-center border p-4">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4">
-                             <span class="h5">Featured by companies like:</span>
-                        </div>
-                        <div class="col-lg-2">
-                            <img src="assets/images/client/client-1.png" alt="" class="img-fluid">
-                        </div>
-
-                        <div class="col-lg-2">
-                            <img src="assets/images/client/client-2.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-lg-2">
-                            <img src="assets/images/client/client-3.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-lg-2">
-                            <img src="assets/images/client/client-4.png" alt="" class="img-fluid">
-                        </div>
                     </div>
                 </div>
             </div>

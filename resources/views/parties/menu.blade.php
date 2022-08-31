@@ -17,23 +17,23 @@
                 <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
                     <!-- Links -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="#book" class="nav-link smoth-scroll">
                                Home
                             </a>
-                        </li>
-                        <li class="nav-item ">
+                        </li> --}}
+                        {{-- <li class="nav-item ">
                             <a href="#book" class="nav-link smoth-scroll">
                                 About
                             </a>
-                        </li>
+                        </li> --}}
 
                         <li class="nav-item ">
                             <a href="#chapter" class="nav-link smoth-scroll">
-                                Chapters
+                                Book Details
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        {{-- <li class="nav-item ">
                             <a href="#review" class="nav-link smoth-scroll">
                                 Reviews
                             </a>
@@ -43,17 +43,17 @@
                             <a href="#author" class="nav-link smoth-scroll">
                                 Author
                             </a>
-                        </li>
+                        </li> --}}
 
-                        <li class="nav-item ">
+                        {{-- <li class="nav-item ">
                             <a href="#contact" class="nav-link smoth-scroll">
                                 Contact
                             </a>
-                        </li>
+                        </li> --}}
 
                     </ul>
 
-                    <a href="#achat" class="btn btn-border-tp btn-small ml-3">Purchase Now</a>
+                    <a href="#achat" class="btn btn-border-tp btn-small ml-3">Pre-ORDER YOUR COPY</a>
                 </div>
             </div>
         </nav>
