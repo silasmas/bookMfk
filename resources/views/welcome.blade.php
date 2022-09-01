@@ -591,7 +591,7 @@
             <div class="col-lg-6">
                 <div class="author-info pl-4 mt-5 mt-lg-0">
                     <span>Know More About Author</span>
-                    <h2 class="text-lg">Yasin Arafat <span class="text-sm">- Technical Writer</span></h2>
+                    <h2 class="text-lg"><span class="curve">Yasin Arafat</span> <span class="text-sm">- Technical Writer</span></h2>
 
                     <p class="mb-4 mt-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. et inventore dicta quos ducimus, consectetur culpa dolore quisquam ipsum facere, fugiat. Corporis eaque, sint.</p>
                     <img src="images/about/2.png" alt="" class="img-fluid">

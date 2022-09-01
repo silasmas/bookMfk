@@ -123,59 +123,51 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-6 col-sm-6">
-                <div class="chapter-inner">
-                    <div class="chapter-item d-flex">
-                        <i class="ti-check"></i>
-                        <div class="content pl-4">
-                            <h4>Design principles</h4>
-                            <p>Tips on scouting the city and making the most out of your three-month tourist visa.</p>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="card-body">
+                                <h3>INSIGHT ABOUT YOUR CALLING</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="chapter-item d-flex">
-                        <i class="ti-check"></i>
-                        <div class="content pl-4">
-                            <h4>Visual hierarchy</h4>
-                            <p>A full chapter the city and making the most out of your three-month tourist visa.</p>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="card-body">
+                                <h3>INSIGHT ABOUT YOUR CALLING</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="chapter-item d-flex">
-                        <i class="ti-check"></i>
-                        <div class="content pl-4">
-                            <h4>White space</h4>
-                           <p>A full chapter the city and making the most out of your three-month tourist visa.</p>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="card-body">
+                                <h3>INSIGHT ABOUT YOUR CALLING</h3>
+                            </div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-                <div class="chapter-inner">
-                    <div class="chapter-item d-flex">
-                        <i class="ti-check"></i>
-                        <div class="content pl-4">
-                            <h4>Typography</h4>
-                            <p> A full chapter just about visas. Overview of work visa options, tips on finding recommendations.</p>
-                        </div>
-                    </div>
-                    <div class="chapter-item d-flex">
-                        <i class="ti-check"></i>
-                        <div class="content pl-4">
-                            <h4>UI design</h4>
-                            <p> Making use of events, networking as a designer/developer How to meet the right people.</p>
-                        </div>
-                    </div>
-                     <div class="chapter-item d-flex">
-                        <i class="ti-check"></i>
-                        <div class="content pl-4">
-                            <h4>Color theory</h4>
-                            <p>Understanding how the city works. Best practices for eating out and grocery shopping. </p>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="card">
+                            <div class="img">
+                                <img src="{{ asset('assets/images/about/p4.png') }}" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="card-body">
+                                <h3>INSIGHT ABOUT YOUR CALLING</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -245,7 +237,7 @@
             <div class="col-lg-6">
                 <div class="author-info pl-4 mt-5 mt-lg-0">
                     <span>Know More About Author</span>
-                    <h2 class="text-lg">Yasin Arafat <span class="text-sm">- Technical Writer</span></h2>
+                    <h2 class="text-lg"><span class="curve">Yasin Arafat</span> <span class="text-sm">- Technical Writer</span></h2>
 
                     <p class="mb-4 mt-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. et inventore dicta quos ducimus, consectetur culpa dolore quisquam ipsum facere, fugiat. Corporis eaque, sint.</p>
                     <img src="assets/images/about/2.png" alt="" class="img-fluid">

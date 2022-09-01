@@ -11,7 +11,9 @@
   <meta name="author" content="dreambuzz">
 
   <title>{{ config('app.name') }}</title>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"> 
  <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo.png') }}" />
   <!-- bootstrap.min css -->
